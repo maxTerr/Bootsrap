@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Carousel</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2016/10/19/18/25/doner-kebab-1753615_1280.jpg" alt="First slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Doner Kebab</h5>
+                <p>Sandwich fourré de viande grillée à la broche</p>
+                <button type="button" class="btn btn-primary">Buy</button>
+            </div>
+        </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2015/04/20/13/25/burger-731298_1280.jpg" alt="Second slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Burger</h5>
+                <p>sandwich d'origine allemande, composé de deux pains de forme ronde (bun) généralement garnis de steak haché (généralement du bœuf) et de crudités, salade, tomate, oignon, cornichon</p>
+                <button type="button" class="btn btn-primary">Buy</button>
+            </div>  
+        </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2016/02/19/11/30/pizza-1209748_1280.jpg" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Pizza</h5>
+                <p>Galette de pâte à pain, garnie de divers mélanges d’ingrédients (sauce tomate, tomates séchées, légumes, fromage, charcuterie, olives, huile d'olive…)1 et cuite au four</p>
+                <button type="button" class="btn btn-primary">Buy</button>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2018/05/02/18/23/landscape-3369304_1280.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Bio</h5>
+          <p class="card-text">Ingrédients issues de l'agriculture biologique.</p>
+          <a href="#" class="btn btn-primary">En savoir plus</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2014/09/19/19/09/peasant-452904_1280.jpg">
+        <div class="card-body">
+          <h5 class="card-title">Locale</h5>
+          <p class="card-text">Ingrédients issues du commercee locale.</p>
+          <a href="#" class="btn btn-primary">En savoir plus</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2016/11/29/08/24/bakery-1868396_1280.jpg">
+        <div class="card-body">
+          <h5 class="card-title">Fait Maison</h5>
+          <p class="card-text">Tous nos plats sont réalisés sur place, concotés avec soin par nos chefs</p>
+          <a href="#" class="btn btn-primary">En savoir plus</a>
+        </div>
+      </div>
+
+
+
+
+</body>
+</html>

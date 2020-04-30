@@ -2,7 +2,32 @@
 height: 70vh;
 object-fit: cover;
 }
+.carousel-caption h5 {
+font-size: 100px;
+}
+.carousel-caption p {
+font-size: 20px;
+}
 .card-img-top {
-    border-radius : 50%;
-    width: 50%;
+border-radius : 50%;
+width: 150px;
+height:150px;
+object-fit: cover;
+}
+.card {
+text-align: center;
+border: none;
+}
+#adv {
+display: flex;
+justify-content: center;
+}
+.mr-3 {
+height : 500px;
+width : 500px;
+object-fit: cover;
+}
+.media {
+text-align : center;
+vertical-align: center;
 }

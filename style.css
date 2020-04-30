@@ -1,0 +1,8 @@
+.d-block {
+height: 70vh;
+object-fit: cover;
+}
+.card-img-top {
+    border-radius : 50%;
+    width: 50%;
+}

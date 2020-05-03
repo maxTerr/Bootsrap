@@ -1,38 +1,50 @@
 .d-block {
-height: 90vh;
-object-fit: cover;
-}
+    height: 90vh;
+    object-fit: cover;
+    }
+
 .carousel-caption h5 {
-font-size: 100px;
-}
+    font-size: 100px;
+    }
+
 .carousel-caption p {
-font-size: 20px;
-}
+    font-size: 20px;
+    }
+
 .card-img-top {
-border-radius : 50%;
-width: 150px;
-height:150px;
-object-fit: cover;
-}
+    border-radius : 50%;
+    width: 150px;
+    height:150px;
+    object-fit: cover;
+    }
+
 .card {
-text-align: center;
-border: none;
-padding: 50px;
-}
+    text-align: center;
+    border: none;
+    padding: 50px;
+    }
+
 #adv {
-display: flex;
-justify-content: center;
-}
+    display: flex;
+    justify-content: center;
+    }
+
 .mr-3 {
-height : 500px;
-width : 500px;
-object-fit: cover;
-}
+    height : 500px;
+    width : 500px;
+    object-fit: cover;
+    margin: 20px;
+    }
+
 .media {
-text-align : center;
-vertical-align: center;
-padding: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .media h5 {
-font-size: 50px;
+    font-size: 50px;
+}
+.ville {
+    color:#FC5255;
 }
